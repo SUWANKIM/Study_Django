@@ -2,6 +2,7 @@ class User:
     num_users = 0 #class 변수
     def __init__(self, name):
         self.name = name
+
         User.num_users += 1
 
 
